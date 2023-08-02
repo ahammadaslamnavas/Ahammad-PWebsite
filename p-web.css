@@ -133,6 +133,9 @@ transition: all 0.2s ease-out
   animation: gradient 10s ease infinite;
 }
 
+section{
+     overflow:hidden;
+}
 
 .m-eff{
 background: linear-gradient(to bottom right,rgb(255, 224, 193), white);
