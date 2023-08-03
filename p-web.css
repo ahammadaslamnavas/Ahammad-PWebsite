@@ -42,10 +42,7 @@ transition: all 0.2s ease-out
     font-family: h-1;
      src: url('Fonts/28\ Days\ Later.ttf');
   }
-  @font-face {
-    font-family: h-0;
-     src: url('Fonts/LondrinaOutline-Regular.ttf');
-  }
+
   @font-face {
     font-family: h-5;
      src: url('Fonts/Monoton-Regular.ttf');
@@ -161,9 +158,15 @@ section{
     width: 350px;
   }
 }
+@media (min-width: 767px) {
+  .fbx {
+  height: 100px;
+  }
+}
 @media (max-width: 767px) {
   .r-crd {
   width: 350px;
+ 
   }
 }
 @media (max-width: 767px) {
